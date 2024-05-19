@@ -22,18 +22,18 @@ global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024"
 
 global.devs = "2348039607375"
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "233547441733";
 
 
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '2'
+global.style = process.env.STYLE   || '4'
 global.flush = process.env.FLUSH   || "false"; 
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";
 
-global.warncount = process.env.WARN_COUNT || 3
+global.warncount = process.env.WARN_COUNT || 4
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 
@@ -45,13 +45,13 @@ global.waPresence= process.env.WAPRESENCE ||  "online" ;
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "233547441733";
 
 
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348039607375";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348039607375";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "233547441733";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "233547441733";
 
 global.api_smd = "https://api-smd.onrender.com"
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -71,8 +71,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "αѕтяσ",
   packname: process.env.PACK_NAME || "αѕтяσ",
-  botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "αѕтяσ",
+  botname : process.env.BOT_NAME  || "kobby Richies",
+  ownername:process.env.OWNER_NAME|| "kobby",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
